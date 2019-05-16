@@ -1,0 +1,25 @@
+entry = love, death, robot
+
+% this is a comment
+
+love + robot = human
+human + love = marriage
+marriage + death = insurance fraud
+human + death = ghost
+insurance fraud + robot = 1 billion dollars
+love + death = necrophilia
+robot + death = spare parts
+human + spare parts = cyborg
+cyborg + love = impossibility
+impossibility + love = story
+story + love = memoir
+memoir + marriage = divorce
+divorce + ghost = free spirit
+free spirit + death = ash of phoenix
+ash of phoenix + insurance fraud = water
+ash of phoenix + water = mud
+water + human = shark
+water + robot = fire
+shark + fire = violence
+ghost + insurance fraud = demon
+necrophilia + insurance fraud = sex + money
