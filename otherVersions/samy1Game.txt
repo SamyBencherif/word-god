@@ -1,0 +1,35 @@
+entry = love, death, robot
+
+% this is a comment
+
+love + robot = human
+human + love = marriage
+marriage + death = insurance fraud
+marriage + human = depression
+human + death = ghost
+insurance fraud + robot = 1 billion dollars
+robot + death = spare parts
+human + spare parts = cyborg
+cyborg + love = impossibility
+impossibility + marriage = Romeo + Juiliet
+impossibility + robot = perpetual motion machine
+perpetual motion machine + death = cold heat death of the universe
+impossibility + love = story
+story + love = memoir
+memoir + marriage = divorce
+divorce + ghost = free spirit
+free spirit + death = ash of phoenix
+ash of phoenix + insurance fraud = water
+ash of phoenix + water = mud
+water + human = shark
+water + robot = fire
+shark + fire = violence
+ghost + insurance fraud = demon
+murder + insurance fraud = money
+love + spare parts = grandfather clock
+sex + death = Ghenghis Khan
+love + death = murder
+murder + ghost = mystery
+robot + murder = robot convict
+robot convict + love = reform
+

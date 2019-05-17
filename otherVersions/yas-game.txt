@@ -1,0 +1,91 @@
+
+entry = jumping, paint, travel, plants, lamp, pudding, books, foresight, responsibility, museums, curiosity, humans, turtles, pizza, sewers, ninjas, mutants, television, electricty, clothing, style, pottery, marble, kimono, fish
+
+
+jumping + paint = basketball
+jumping + travel = pogo stick
+jumping + plants = mexican jumping beans
+jumping + lamp = pixar
+jumping + pudding = jello
+jumping + books = leap frog
+jumping + foresight = landing
+jumping + responsibility = impossibility
+jumping + museums = exile
+jumping + curiosity = aerospace
+jumping + humans = trampoline
+jumping + turtles = frogs
+jumping + pizza = lol
+jumping + ninjas = better ninjas
+jumping + mutants = apocalypse
+jumping + television = cell phone
+jumping + television = the olympics
+jumping + electricity = stove
+jumping + clothing = athletic wear
+jumping + style = ballet
+jumping + pottery = kiln
+jumping + marble = jacks
+jumping + kimono = geisha
+jumping + fish = salmon
+
+paint + travel = culture
+paint + plants = art
+paint + lamp = colors
+paint + pudding = poison
+paint + foresight = house
+paint + responsibility = no fun at all
+paint + museums = duh
+paint + curiosity = avant garde
+paint + humans = carnival
+paint + turtles = beach
+paint + pizza = frisbee
+paint + sewers = Walmart
+paint + ninjas = art theives
+paint + mutants = Victoria Secret models
+paint + television = computer
+paint + electicity = neon
+paint + clothing = t-shirt
+paint + style = shoes
+paint + marble = brick
+paint + kimono = Kabuki theater
+paint + fish = sock
+
+travel + plants = cactus
+travel + lamp = airplane
+travel + pudding = apple sauce
+travel + books = happiness
+travel + foresight = stress
+travel + responsibility = duty
+travel + museums = logic
+travel + curiosity = distance
+travel + humans = conquest
+travel + turtles = wisdom
+travel + pizza = fake news
+travel + sewers = bad idea
+travel + ninjas = cultural awareness
+
+
+
+paint + marble = fanciness
+
+style + pottery = bowls
+
+electricity + curiosity = ideas
+
+ideas + humans = progress
+
+progress + clothing = fashion
+
+fashion + style = art
+
+art + turtles = keychain
+
+
+pudding + books = silly putty + newspaper + school
+
+kimono + sewers = godzilla
+
+godzilla + pizza = mozzarella
+
+pudding + potatoes = mashed potatoes
+
+plants + ideas = potatoes

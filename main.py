@@ -85,7 +85,7 @@ while rule:
 
 pygame.init()
 
-disp = pygame.display.set_mode((640, 480))
+disp = pygame.display.set_mode((640, 700))
 font = pygame.freetype.SysFont('Consolas', 14)
 
 mouseIsDown = False
@@ -100,6 +100,16 @@ while True:
     disp.fill((255,255,255))
 
     for word in words:
+        Wsurf, _ = font.render(word.text, word.color)
+
+        buffer = pygame.Surface((word.bounds.w, word.bounds.h))
+        buffer.fill((255, 255, 255))
+        buffer.blit(Wsurf, pygame.Rect(0, 0, word.bounds.w,
+                                             word.bounds.h))
+        buffer.set_alpha(120)
+
+        disp.blit(buffer, word.origin)
+
         Wsurf, _ = font.render(word.text, word.color)
         disp.blit(Wsurf, word.pos)
 
@@ -116,8 +126,6 @@ while True:
                     newpos = ((word.pos[0] + word2.pos[0])/2,
                                (word.pos[1] + word2.pos[1])/2)
 
-                    word.pos = word.origin
-                    word2.pos = word2.origin
 
                     key = tuple(sorted([word.text, word2.text]))
                     if key in \
@@ -132,10 +140,14 @@ while True:
                                 continue
 
                             words.append(Word(newWord,
-                                         (20, 20 + loc*20)))
+                                         word.pos))
                             _, words[-1].bounds = font.render(
                                     words[-1].text)
-                            loc += 1
+
+                            word.pos = word.origin
+                            word2.pos = word2.origin
+
+                            #loc += 1
 
     if target:
         try:
@@ -161,7 +173,10 @@ while True:
                   target == None:
                    target = word
             if target == None:
+                c = 0
                 for word in words:
+                    word.origin = (20+c//60, 20+20*c)
+                    c += 1
                     word.pos = word.origin
         if event.type == pygame.MOUSEBUTTONUP:
             mouseIsDown = False
